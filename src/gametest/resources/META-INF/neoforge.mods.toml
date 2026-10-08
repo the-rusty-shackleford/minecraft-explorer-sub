@@ -1,0 +1,17 @@
+# The gametests and the photo booth, as a mod of their own; never shipped.
+modLoader="javafml"
+loaderVersion="[1,)"
+license="AGPL-3.0-or-later"
+
+[[mods]]
+modId="explorer_sub_gametest"
+version="1.0.0"
+displayName="Explorer gametests"
+description='''The Explorer's gametests and its photo booth.'''
+
+[[dependencies.explorer_sub_gametest]]
+    modId="explorer_sub"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"

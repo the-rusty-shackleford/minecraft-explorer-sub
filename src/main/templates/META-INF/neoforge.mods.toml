@@ -1,0 +1,47 @@
+# No Java: a submarine for Submersibles is two datapack entries, a mesh and a sound.
+modLoader="lowcodefml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/the-rusty-shackleford/minecraft-explorer-sub/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Rusty Shackleford, nfx"
+description='''
+The Explorer: a fat research submarine for Submersibles. A pilot and three
+aboard behind three big viewports, a hold of three rows behind its hatch,
+twin floods on a chin pod, two screws; four upgrade slots and two torpedo
+tubes. Slow and tough. Crafted at a crafting table, dyeable, and dived with
+Space and Shift like every submarine.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# The submarine protocol, nested in this jar, with Vanilla Wheels nested in it.
+[[dependencies.${mod_id}]]
+    modId="submersibles"
+    type="required"
+    versionRange="[1.0.0,2.0)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="vanillawheels"
+    type="required"
+    versionRange="[1.13.0,2.0)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,125 @@
+{
+  "properties": {
+    "engineSpeed": 0.011,
+    "friction": 0.016,
+    "verticalSpeed": 0.08,
+    "yawSpeed": 1.8,
+    "acceleration": 0.5,
+    "fuel": 1.2,
+    "durability": 4.0,
+    "stabilizer": 0.15,
+    "wind": 0.4
+  },
+  "hull_drag": 0.032,
+  "spool_ticks": 30,
+  "rise": 0.05,
+  "draft": 0.4,
+  "tilt": 8,
+  "hull": [
+    {
+      "from": [
+        -15.2,
+        4.48,
+        -9.2
+      ],
+      "to": [
+        15.2,
+        35.2,
+        42.0
+      ]
+    },
+    {
+      "from": [
+        -14.72,
+        4.48,
+        -37.2
+      ],
+      "to": [
+        14.72,
+        23.52,
+        -9.2
+      ]
+    },
+    {
+      "from": [
+        10.88,
+        0.0,
+        -41.84
+      ],
+      "to": [
+        20.8,
+        12.8,
+        32.4
+      ]
+    },
+    {
+      "from": [
+        -20.8,
+        0.0,
+        -41.84
+      ],
+      "to": [
+        -10.88,
+        12.8,
+        32.4
+      ]
+    }
+  ],
+  "propellers": [
+    {
+      "part": {
+        "group": "propeller_left"
+      },
+      "pivot": [
+        15.68,
+        7.36,
+        -39.28
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "speed": 1.0
+    },
+    {
+      "part": {
+        "group": "propeller_right"
+      },
+      "pivot": [
+        -15.68,
+        7.36,
+        -39.28
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "speed": -1.0
+    }
+  ],
+  "upgrades": 4,
+  "weapons": [
+    [
+      -4.8,
+      4.32,
+      35.92
+    ],
+    [
+      4.8,
+      4.32,
+      35.92
+    ]
+  ],
+  "hatch": [
+    0.0,
+    38.4,
+    16.4
+  ],
+  "crash": {
+    "safe": 0.18,
+    "touchdown_safe": 0.18,
+    "wreck": 1.0
+  }
+}

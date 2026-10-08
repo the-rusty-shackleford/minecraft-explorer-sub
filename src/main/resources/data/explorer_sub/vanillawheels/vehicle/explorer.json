@@ -1,0 +1,186 @@
+{
+  "mesh": "explorer_sub:explorer",
+  "scale": 0.0625,
+  "handedness": "right",
+  "body": {
+    "width": 2.7,
+    "length": 5.3,
+    "height": 1.55,
+    "parts": [
+      {
+        "at": [
+          0,
+          4.0,
+          32.4
+        ],
+        "width": 1.9,
+        "height": 2.1
+      },
+      {
+        "at": [
+          0,
+          4.8,
+          4.4
+        ],
+        "width": 1.7,
+        "height": 2.0
+      },
+      {
+        "at": [
+          0,
+          0.0,
+          -29.2
+        ],
+        "width": 2.7,
+        "height": 1.55
+      }
+    ]
+  },
+  "seats": [
+    {
+      "at": [
+        6.08,
+        10.4,
+        25.2
+      ],
+      "eye": [
+        6.08,
+        26.72,
+        26.32
+      ],
+      "driver": true
+    },
+    {
+      "at": [
+        -6.08,
+        10.4,
+        25.2
+      ],
+      "eye": [
+        -6.08,
+        26.72,
+        26.32
+      ]
+    },
+    {
+      "at": [
+        6.08,
+        10.4,
+        8.4
+      ],
+      "eye": [
+        6.08,
+        26.72,
+        9.52
+      ]
+    },
+    {
+      "at": [
+        -6.08,
+        10.4,
+        8.4
+      ],
+      "eye": [
+        -6.08,
+        26.72,
+        9.52
+      ]
+    }
+  ],
+  "wheels": {
+    "radius": 1,
+    "drawn": false,
+    "positions": [
+      {
+        "forward": 24.4,
+        "right": -15.68
+      },
+      {
+        "forward": 24.4,
+        "right": 15.68
+      },
+      {
+        "forward": -30.0,
+        "right": -15.68
+      },
+      {
+        "forward": -30.0,
+        "right": 15.68
+      }
+    ]
+  },
+  "engine": {
+    "max_speed": 0.22,
+    "acceleration": 0.01,
+    "reverse_speed": 0.07,
+    "brake": 0.02
+  },
+  "climb": 0.5,
+  "mass": 6.0,
+  "fuel": {
+    "capacity": 36000
+  },
+  "storage": {
+    "chests": [
+      {
+        "at": [
+          0,
+          13.76,
+          -17.2
+        ],
+        "yaw": 90,
+        "scale": 0.5,
+        "rows": 3
+      }
+    ]
+  },
+  "headlights": {
+    "at": [
+      [
+        -15.68,
+        7.36,
+        32.4
+      ],
+      [
+        15.68,
+        7.36,
+        32.4
+      ]
+    ],
+    "part": {
+      "group": "lamps"
+    },
+    "range": 24
+  },
+  "paint": {
+    "part": {
+      "group": "paint"
+    },
+    "default": "white",
+    "factory": "#e9e8e1"
+  },
+  "glass": {
+    "group": "glass"
+  },
+  "cockpit": {
+    "group": "glass"
+  },
+  "sounds": {
+    "engine": "explorer_sub:engine",
+    "pitch": [
+      0.7,
+      1.1
+    ],
+    "volume": [
+      0.3,
+      0.8
+    ]
+  },
+  "camera": 10.0,
+  "repair": {
+    "ingredient": {
+      "tag": "c:ingots/steel"
+    },
+    "full_cost": 24
+  }
+}

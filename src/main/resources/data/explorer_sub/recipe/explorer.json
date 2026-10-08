@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "neoforge:components",
+      "items": "vanillawheels:chassis",
+      "components": {
+        "vanillawheels:vehicle": "explorer_sub:explorer"
+      }
+    },
+    {
+      "item": "vanillawheels:engine"
+    }
+  ],
+  "result": {
+    "id": "vanillawheels:vehicle",
+    "count": 1,
+    "components": {
+      "vanillawheels:vehicle": "explorer_sub:explorer"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "engine": {
+    "sounds": [
+      {
+        "name": "explorer_sub:engine",
+        "attenuation_distance": 32
+      }
+    ]
+  }
+}

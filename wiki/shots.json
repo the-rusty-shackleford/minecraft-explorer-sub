@@ -1,0 +1,10 @@
+{
+  "shots": [
+    {"from": "run/booth/screenshots/explorer-floating.png", "to": "img/explorer.webp", "crop": [240, 150, 1040, 600]},
+    {"from": "run/booth/screenshots/explorer-at-depth.png", "to": "img/at-depth.webp"},
+    {"from": "run/booth/screenshots/explorer-floating-stern.png", "to": "img/stern.webp", "crop": [240, 150, 1040, 600]},
+    {"from": "run/booth/screenshots/explorer-pilot-view.png", "to": "img/pilot-view.webp"},
+    {"from": "run/booth/screenshots/explorer-floods-on.png", "to": "img/floods.webp"},
+    {"from": "run/booth/screenshots/explorer-hold.png", "to": "img/hold.webp", "crop": [375, 108, 903, 608], "screen": true}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SGS",
+    "GCG",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "S": {
+      "tag": "c:storage_blocks/steel"
+    }
+  },
+  "result": {
+    "id": "vanillawheels:chassis",
+    "count": 1,
+    "components": {
+      "vanillawheels:vehicle": "explorer_sub:explorer"
+    }
+  }
+}
