@@ -117,6 +117,7 @@
   },
   "climb": 0.5,
   "mass": 6.0,
+  "durability": 4.0,
   "fuel": {
     "capacity": 36000
   },

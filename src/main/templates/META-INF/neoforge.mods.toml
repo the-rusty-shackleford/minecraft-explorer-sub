@@ -35,13 +35,13 @@ Space and Shift like every submarine.
 [[dependencies.${mod_id}]]
     modId="submersibles"
     type="required"
-    versionRange="[1.0.0,2.0)"
+    versionRange="[1.1.0,2.0)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="vanillawheels"
     type="required"
-    versionRange="[1.13.0,2.0)"
+    versionRange="[1.14.0,2.0)"
     ordering="AFTER"
     side="BOTH"

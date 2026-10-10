@@ -41,8 +41,8 @@ keys, fuel, paint and repairs in Vanilla Wheels'.
 
 ## Numbers
 
-In Submersibles' terms (`data/explorer_sub/submersibles/submarine/explorer.json`), from nfx's
-proposed stats:
+In Submersibles' terms (`data/explorer_sub/submersibles/submarine/explorer.json`; its durability in
+`vanillawheels/vehicle/explorer.json`), from nfx's proposed stats:
 
 | | |
 |---|---|
@@ -51,7 +51,7 @@ proposed stats:
 | turn | 1.8 degrees a tick |
 | spool | 30 ticks at acceleration 0.5: three seconds |
 | fuel | 36 000 ticks, burnt at 1.2 a tick while driven: 25 minutes |
-| durability | 4: a quarter of the wear |
+| durability | 4: a quarter of the wear (its Vanilla Wheels profile's `durability` since Submersibles 1.1.0) |
 | crashes | safe below 0.18 a tick, a wreck at 1.0 |
 | currents | 0.4 of a swimmer's push; stabilizer 0.15; tilts up to 8 degrees |
 | repair | steel ingots, 24 for a wreck |

@@ -112,14 +112,14 @@ dependencies {
     // and Materials is required separately through Vanilla Wheels.
     jarJar(implementation("com.chunkworks.submersibles:submersibles")) {
         version {
-            strictly "[1.0,2.0)"
-            prefer "1.0.0"
+            strictly "[1.1,2.0)"
+            prefer "1.1.0"
         }
     }
 
     gametestImplementation sourceSets.main.output
     // The tests reach into Vanilla Wheels' API, which Submersibles keeps to itself at compile time.
-    gametestImplementation("com.chunkworks.vanillawheels:vanillawheels:1.13.0")
+    gametestImplementation("com.chunkworks.vanillawheels:vanillawheels:1.14.0")
 }
 
 tasks.named('runGameTestServer') { task ->

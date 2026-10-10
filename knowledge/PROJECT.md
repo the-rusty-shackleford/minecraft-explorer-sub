@@ -15,6 +15,12 @@ nfx's four-seat research submarine (his brief, 2026-10-07, kept in Submersibles'
 hold and the sound; D-0002 the shape it has now, a personal submersible (Rusty, 2026-10-07: "more of a
 slick personal submersible, less of a military submarine").
 
+## 1.0.1 — built and gated 2026-10-10, unreleased (on Submersibles 1.1.0)
+
+Its durability, 4, moved from its submarine profile's `properties` into its Vanilla Wheels profile
+(Submersibles 1.1.0; Vanilla Wheels 1.14.0's D-0034), unchanged; it nests Submersibles 1.1.0. Gate:
+the release gate (2026-10-10, `clean build --no-build-cache`) green with 8 gametests and the booth's 17 checks.
+
 ## Status: 1.0.0 released 2026-10-08 in pack 1.78.0
 
 - Released on Rusty's go with Submersibles 1.0.0: public repo created then, tag `v1.0.0` at

@@ -204,7 +204,7 @@ public final class ExplorerGameTests {
         helper.assertValueEqual(sp.propellers().size(), 2, "two screws");
         helper.assertTrue(sp.propellers().get(0).speed() == -sp.propellers().get(1).speed(), "turning opposite ways");
         helper.assertTrue(sp.hatch().isPresent(), "a hatch to get out at");
-        helper.assertValueEqual(sp.properties().durability(), 4.0, "tough: a quarter of the wear");
+        helper.assertValueEqual(p.durability(), 4.0, "tough: a quarter of the wear (its Vanilla Wheels profile's since Submersibles 1.1.0)");
         Submarine s = sub(helper, 24.5, 2, 12.5, 0.0f);
         helper.assertValueEqual(s.getName().getString(), "Explorer", "named");
         helper.assertTrue(Math.abs(s.hullform().topSpeed() - TOP_SPEED) < 1e-9, "its top speed by its numbers: " + s.hullform().topSpeed());
