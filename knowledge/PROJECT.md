@@ -15,7 +15,10 @@ nfx's four-seat research submarine (his brief, 2026-10-07, kept in Submersibles'
 hold and the sound; D-0002 the shape it has now, a personal submersible (Rusty, 2026-10-07: "more of a
 slick personal submersible, less of a military submarine").
 
-## 1.0.1 — built and gated 2026-10-10, unreleased (on Submersibles 1.1.0)
+## 1.0.1 — released 2026-10-11 in pack 1.82.0 (on Submersibles 1.1.0)
+
+Released on Rusty's go ("Release the 2026-10-10 batch and Survivalist Armor 0.2.0. This is my go."), tag `v1.0.1` at `6498f79`, the release gate (2026-10-11, `clean build --no-build-cache`) green again on that commit; sha1 `d2c26f15` on GitHub and on the server (the server repo's `knowledge/releases/pack-1.82.0.md`). Not yet seen in play on the box.
+
 
 Its durability, 4, moved from its submarine profile's `properties` into its Vanilla Wheels profile
 (Submersibles 1.1.0; Vanilla Wheels 1.14.0's D-0034), unchanged; it nests Submersibles 1.1.0. Gate:
